@@ -10,7 +10,6 @@ def send(to, subject, body, attachments=[]):
         "fromName": ELASTIC_EMAIL["FROM_NAME"],
         "to": to,
         "bodyHtml": body,
-        "isTransactional": False
     }
     attachments = attachments if type(attachments) == list else [attachments]
     attachs = [(name, open(name, "rb")) for name in attachments]
