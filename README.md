@@ -57,3 +57,7 @@ r = elasticemail.send(
     ["photo.jpg", "photo2.jpg"]
 )
 ```
+
+## API documentation
+
+http://api.elasticemail.com/public/help#Email_Send
