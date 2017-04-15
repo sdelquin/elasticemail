@@ -2,7 +2,7 @@ import requests
 from config import ELASTIC_EMAIL
 
 
-def send(to, subject, body, attachments):
+def send(to, subject, body, attachments=[]):
     data = {
         "apikey": ELASTIC_EMAIL["APIKEY"],
         "subject": subject,
