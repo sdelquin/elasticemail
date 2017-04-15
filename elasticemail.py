@@ -6,7 +6,7 @@ def send(to, subject, body, attachments=[]):
     data = {
         "apikey": ELASTIC_EMAIL["APIKEY"],
         "subject": subject,
-        "from": ELASTIC_EMAIL["FROM"],
+        "from": ELASTIC_EMAIL["FROM_MAIL"],
         "fromName": ELASTIC_EMAIL["FROM_NAME"],
         "to": to,
         "bodyHtml": body,
