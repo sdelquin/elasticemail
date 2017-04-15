@@ -1,0 +1,6 @@
+ELASTIC_EMAIL = {
+    "URL": "https://api.elasticemail.com/v2/email/send",
+    "FROM": "xxxxxxxxxxxx",
+    "FROM_NAME": "xxxxxxxxxxxx",
+    "APIKEY": "xxxxxxxxxxxx"
+}
